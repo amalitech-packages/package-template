@@ -2,7 +2,7 @@
 
 > The starting point for every package published under the [`@amali-tech`](https://www.npmjs.com/org/amali-tech) npm scope.
 
-This is a **GitHub template repository**. To start a new package, click the green **"Use this template"** button at the top of the GitHub page and create a new repo under the [`packages-amalitech`](https://github.com/packages-amalitech) org.
+This is a **GitHub template repository**. To start a new package, click the green **"Use this template"** button at the top of the GitHub page and create a new repo under the [`amali-tech`](https://github.com/amali-tech) org.
 
 The template ships pre-wired with:
 
@@ -23,7 +23,7 @@ The template ships pre-wired with:
 1. Clone it locally and run the setup script — it will rename every placeholder for you:
 
    ```bash
-   git clone https://github.com/packages-amalitech/<your-package-name>.git
+   git clone https://github.com/amali-tech/<your-package-name>.git
    cd <your-package-name>
    corepack enable
    pnpm install
@@ -68,7 +68,7 @@ You'll need to set the `NPM_TOKEN` secret on each repo (npm Automation token, gr
 
 ## Where the org-level rules live
 
-This template carries its own `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, issue templates, and PR template. If you also create a [`packages-amalitech/.github`](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) repo at the org level, those files become the org-wide default and individual repos can omit them — pick whichever you prefer.
+This template carries its own `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, issue templates, and PR template. If you also create a [`amali-tech/.github`](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) repo at the org level, those files become the org-wide default and individual repos can omit them — pick whichever you prefer.
 
 ## License
 

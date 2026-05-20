@@ -5,13 +5,13 @@
   "keywords": [],
   "license": "Apache-2.0",
   "author": "AmaliTech",
-  "homepage": "https://github.com/packages-amalitech/PACKAGE_NAME#readme",
+  "homepage": "https://github.com/amali-tech/PACKAGE_NAME#readme",
   "bugs": {
-    "url": "https://github.com/packages-amalitech/PACKAGE_NAME/issues"
+    "url": "https://github.com/amali-tech/PACKAGE_NAME/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/packages-amalitech/PACKAGE_NAME.git"
+    "url": "git+https://github.com/amali-tech/PACKAGE_NAME.git"
   },
   "type": "module",
   "main": "./dist/index.js",

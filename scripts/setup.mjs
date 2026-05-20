@@ -62,11 +62,11 @@ async function updatePackageJson(pkgPath, { name, description, isPublic }) {
   const pkg = JSON.parse(raw);
   pkg.name = `@amali-tech/${name}`;
   pkg.description = description;
-  pkg.homepage = `https://github.com/packages-amalitech/${name}#readme`;
-  pkg.bugs = { url: `https://github.com/packages-amalitech/${name}/issues` };
+  pkg.homepage = `https://github.com/amali-tech/${name}#readme`;
+  pkg.bugs = { url: `https://github.com/amali-tech/${name}/issues` };
   pkg.repository = {
     type: 'git',
-    url: `git+https://github.com/packages-amalitech/${name}.git`,
+    url: `git+https://github.com/amali-tech/${name}.git`,
   };
   pkg.publishConfig = {
     ...pkg.publishConfig,

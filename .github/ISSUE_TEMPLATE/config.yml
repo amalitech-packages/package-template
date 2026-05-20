@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security report
-    url: https://github.com/packages-amalitech/.github/blob/main/SECURITY.md
+    url: https://github.com/amali-tech/.github/blob/main/SECURITY.md
     about: Please report vulnerabilities privately — do not open a public issue.
   - name: Question or discussion
-    url: https://github.com/orgs/packages-amalitech/discussions
+    url: https://github.com/orgs/amali-tech/discussions
     about: For questions and design discussions, use GitHub Discussions.

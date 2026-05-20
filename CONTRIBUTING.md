@@ -31,7 +31,7 @@ By participating you agree to follow the [Code of Conduct](./CODE_OF_CONDUCT.md)
 ## Local setup
 
 ```bash
-git clone https://github.com/packages-amalitech/<repo>.git
+git clone https://github.com/amali-tech/<repo>.git
 cd <repo>
 pnpm install
 pnpm build
