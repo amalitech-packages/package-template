@@ -61,7 +61,7 @@ pnpm changeset     # record a version bump for your PR
 You don't publish manually. On every merge to `main`:
 
 1. The **Release** workflow runs.
-2. If there are pending changesets, it opens a *"Version Packages"* PR.
+2. If there are pending changesets, it opens a _"Version Packages"_ PR.
 3. When a maintainer merges that PR, the workflow publishes to npm with provenance and tags the GitHub release.
 
 You'll need to set the `NPM_TOKEN` secret on each repo (npm Automation token, granular scope). See [CONTRIBUTING.md](./CONTRIBUTING.md#releasing).

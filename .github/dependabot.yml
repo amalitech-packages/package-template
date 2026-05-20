@@ -21,7 +21,9 @@ updates:
           - 'minor'
           - 'patch'
     ignore:
-      - dependency-name: 'node'
+      # Major version bumps require a human decision (often involve breaking changes).
+      # Bump these manually by editing package.json and running `pnpm install`.
+      - dependency-name: '*'
         update-types: ['version-update:semver-major']
 
   - package-ecosystem: 'github-actions'

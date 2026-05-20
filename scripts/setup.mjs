@@ -3,10 +3,9 @@
 // Prompts for a package name, description, and npm visibility,
 // rewrites placeholders across the repo, then deletes itself.
 
-import { readFile, writeFile, unlink, readdir, stat } from 'node:fs/promises';
-import { join, relative } from 'node:path';
+import { readFile, writeFile, unlink } from 'node:fs/promises';
+import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { dirname } from 'node:path';
 import { createInterface } from 'node:readline/promises';
 import { stdin as input, stdout as output } from 'node:process';
 
@@ -15,14 +14,7 @@ const repoRoot = join(__dirname, '..');
 
 const PLACEHOLDER = 'PACKAGE_NAME';
 
-const FILES_TO_REWRITE = [
-  'package.json',
-  'README.md',
-  'src/index.ts',
-  'src/index.test.ts',
-];
-
-const SKIP_DIRS = new Set(['node_modules', 'dist', '.git', 'coverage', '.changeset']);
+const FILES_TO_REWRITE = ['package.json', 'README.md', 'src/index.ts', 'src/index.test.ts'];
 
 function ask(rl, question, { required = true, defaultValue } = {}) {
   const suffix = defaultValue ? ` (${defaultValue})` : '';

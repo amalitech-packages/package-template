@@ -14,7 +14,6 @@ PR titles must follow Conventional Commits (e.g. "feat: add JSON output").
 ## Changes
 
 <!-- Bullet list of the user-visible changes. -->
--
 
 ## Risk and rollout
 

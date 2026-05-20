@@ -52,7 +52,11 @@ jobs:
   changeset-check:
     name: changeset required
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'skip-changeset')
+    if: >-
+      github.event_name == 'pull_request'
+      && github.actor != 'dependabot[bot]'
+      && !contains(github.event.pull_request.labels.*.name, 'skip-changeset')
+      && !contains(github.event.pull_request.labels.*.name, 'dependencies')
     steps:
       - name: Checkout
         uses: actions/checkout@v6

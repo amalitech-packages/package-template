@@ -122,7 +122,7 @@ Before pushing:
 - [ ] Updated `README.md` for any user-facing change
 - [ ] Commit messages follow conventional commits
 
-Then open the PR against `main`. Fill out the PR template — the *why* and *risk* fields matter most.
+Then open the PR against `main`. Fill out the PR template — the _why_ and _risk_ fields matter most.
 
 ## Review process
 
@@ -136,7 +136,7 @@ Then open the PR against `main`. Fill out the PR template — the *why* and *ris
 Releases are automated by the [Changesets GitHub Action](https://github.com/changesets/action).
 
 1. PR merges to `main`.
-2. The **Release** workflow runs. If there are pending changesets, it opens (or updates) a *"chore: version package"* PR that bumps the version and writes the changelog.
+2. The **Release** workflow runs. If there are pending changesets, it opens (or updates) a _"chore: version package"_ PR that bumps the version and writes the changelog.
 3. A maintainer reviews and merges that PR.
 4. On merge, the workflow publishes to npm with [provenance](https://docs.npmjs.com/generating-provenance-statements) and tags the GitHub release.
 
