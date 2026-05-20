@@ -2,10 +2,10 @@
 # Lines later in the file take precedence.
 # See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
-* @amali-tech/maintainers
+* @amalitech-packages/maintainers
 
 # Workflow and security-sensitive paths require a stricter review.
-/.github/             @amali-tech/maintainers
-/.github/workflows/   @amali-tech/maintainers
-/SECURITY.md          @amali-tech/maintainers
-/LICENSE              @amali-tech/maintainers
+/.github/             @amalitech-packages/maintainers
+/.github/workflows/   @amalitech-packages/maintainers
+/SECURITY.md          @amalitech-packages/maintainers
+/LICENSE              @amalitech-packages/maintainers

@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for filing a bug. Please complete the fields below — incomplete reports may be closed.
-        For security vulnerabilities, see [SECURITY.md](https://github.com/amali-tech/.github/blob/main/SECURITY.md) instead.
+        For security vulnerabilities, see [SECURITY.md](https://github.com/amalitech-packages/.github/blob/main/SECURITY.md) instead.
 
   - type: input
     id: package-version
