@@ -1,5 +1,5 @@
 /**
- * @amalitech/PACKAGE_NAME
+ * @amali-tech/PACKAGE_NAME
  *
  * Entry point for the package. Replace the example below with your real
  * exports. Keep named exports only — avoid `export default`.

@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-Each `@amalitech` package supports the latest **major** version published to npm. Older majors may receive critical fixes at the maintainers' discretion.
+Each `@amali-tech` package supports the latest **major** version published to npm. Older majors may receive critical fixes at the maintainers' discretion.
 
 ## Reporting a vulnerability
 
@@ -32,6 +32,6 @@ We follow coordinated disclosure. After a fix is released, we will publish a [Gi
 
 ## Scope
 
-In scope: code in `@amalitech/*` packages and the CI/release infrastructure that builds and publishes them.
+In scope: code in `@amali-tech/*` packages and the CI/release infrastructure that builds and publishes them.
 
 Out of scope: third-party services we depend on (npm, GitHub, etc.) — report those to the respective vendor.

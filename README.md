@@ -1,6 +1,6 @@
-# @amalitech package template
+# @amali-tech package template
 
-> The starting point for every package published under the [`@amalitech`](https://www.npmjs.com/org/amalitech) npm scope.
+> The starting point for every package published under the [`@amali-tech`](https://www.npmjs.com/org/amali-tech) npm scope.
 
 This is a **GitHub template repository**. To start a new package, click the green **"Use this template"** button at the top of the GitHub page and create a new repo under the [`packages-amalitech`](https://github.com/packages-amalitech) org.
 
@@ -31,7 +31,7 @@ The template ships pre-wired with:
    ```
 
 2. The setup script asks for:
-   - The package name (e.g. `logger`, `redis-cache`) — used as `@amalitech/<name>`
+   - The package name (e.g. `logger`, `redis-cache`) — used as `@amali-tech/<name>`
    - A one-line description
    - Whether the package will be **public** or **private** on npm
 

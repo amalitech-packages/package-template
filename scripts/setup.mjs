@@ -60,7 +60,7 @@ async function rewriteFile(path, replacements) {
 async function updatePackageJson(pkgPath, { name, description, isPublic }) {
   const raw = await readFile(pkgPath, 'utf8');
   const pkg = JSON.parse(raw);
-  pkg.name = `@amalitech/${name}`;
+  pkg.name = `@amali-tech/${name}`;
   pkg.description = description;
   pkg.homepage = `https://github.com/packages-amalitech/${name}#readme`;
   pkg.bugs = { url: `https://github.com/packages-amalitech/${name}/issues` };
@@ -91,7 +91,7 @@ async function main() {
   try {
     let name;
     while (true) {
-      name = await ask(rl, 'Package name (e.g. "logger", will become @amalitech/<name>)');
+      name = await ask(rl, 'Package name (e.g. "logger", will become @amali-tech/<name>)');
       if (isValidPackageName(name)) break;
       console.log(
         '  Invalid name. Use lowercase letters, digits, and hyphens. Must start with a letter or digit.',

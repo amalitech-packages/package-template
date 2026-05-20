@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for contributing to an `@amalitech` package! This guide is the contract for how changes land here.
+Thanks for contributing to an `@amali-tech` package! This guide is the contract for how changes land here.
 
 By participating you agree to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
@@ -105,7 +105,7 @@ The generated `.changeset/<name>.md` becomes the changelog entry for the release
 
 ```md
 ---
-'@amalitech/logger': minor
+'@amali-tech/logger': minor
 ---
 
 Add structured JSON output mode for production environments. Enable with `logger.setFormat('json')`.
@@ -142,7 +142,7 @@ Releases are automated by the [Changesets GitHub Action](https://github.com/chan
 
 **Required secrets** (set per repo, or as org-level secrets):
 
-- `NPM_TOKEN` — an npm Automation token with publish access to the `@amalitech` scope.
+- `NPM_TOKEN` — an npm Automation token with publish access to the `@amali-tech` scope.
 
 Don't publish manually. If you think you need to, ask a maintainer first.
 
